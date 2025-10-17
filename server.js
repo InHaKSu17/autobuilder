@@ -67,7 +67,7 @@ import simpleGit from 'simple-git';
 import axios from 'axios';
 import fs from 'fs-extra';
 import tmp from 'tmp';
-import DataURIParser from 'datauri/parser';
+import { Parser as DataURIParser } from 'datauri';
 import OpenAI from 'openai';
 
 const app = express();
