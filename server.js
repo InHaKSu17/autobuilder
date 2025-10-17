@@ -59,15 +59,15 @@ Security notes:
 
 */
 
-const express = require('express');
-const bodyParser = require('body-parser');
-const { Octokit } = require('@octokit/rest');
-const simpleGit = require('simple-git');
-const axios = require('axios');
-const fs = require('fs-extra');
-const tmp = require('tmp');
-const DataURIParser = require('datauri/parser');
-const { OpenAI } = require('openai');
+import express from 'express';
+import bodyParser from 'body-parser';
+import { Octokit } from '@octokit/rest';
+import simpleGit from 'simple-git';
+import axios from 'axios';
+import fs from 'fs-extra';
+import tmp from 'tmp';
+import DataURIParser from 'datauri/parser';
+import OpenAI from 'openai';
 
 const app = express();
 app.use(bodyParser.json({ limit: '20mb' }));
