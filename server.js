@@ -58,8 +58,6 @@ Security notes:
 
 
 */
-import DataURIParser from 'datauri/parser';
-const parser = new DataURIParser();
 
 
 import express from 'express';
