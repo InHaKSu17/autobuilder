@@ -14,7 +14,7 @@
     "axios": "^1.6.0",
     "fs-extra": "^11.1.1",
     "tmp-promise": "^3.0.3",
-    "datauri/parser": "^2.0.1",
+    "datauri": "^2.0.0",
     "openai": "^4.9.0"
   }
 }
